@@ -1,9 +1,77 @@
-<!-- Desafio 2 digitação (Aqui) -->
- 
-<!-- Obs: Ler (10a_desafio.md) para orientações -->
-<!-- Imagem de como deve ficar pronto na pasta assets (desafio 2.jpg) -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNews Today</title>
+  <style>
+    body{ background-color:#000000;
+        text-align: center;}
 
-<!-- 📱 🚀 📺 📧 emojis para usar no projeto -->
+    header{background:url(https://i.pinimg.com/originals/36/e4/d0/36e4d0b856694fc471344b644a1dd6e4.gif) no-repeat center fixed;
+        background-size: cover; 
+        padding: 8%;}
+    
+    footer{background:url(https://i.pinimg.com/originals/36/e4/d0/36e4d0b856694fc471344b644a1dd6e4.gif) no-repeat center fixed;
+        background-size: cover; }
+        
 
+    h1{color: rgb(255, 251, 234);
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+    h3{color: rgb(255, 251, 234);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}    
+
+    h4{color: rgb(255, 251, 234);}
+    p{color:rgb(255, 251, 234) ;}
+    a{color: aqua;}
+    label{color:rgb(255, 251, 234);}
+
+  </style>
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <img src="assets/technews.png" alt="Logo TechNews" width="500">
+        <h1><em>Seu portal de notícias tech favorito</em></h3> 
+    </header>
+
+    <main>
+        <h3>🤖<ins>IA REVOLUCIONA DESENVOLVIMENTO</ins> !</h2>
+        <p><em>07/08/2025</em></p>
+        <p>Inteligência artificial está transformando como criamos softwares...</p>
+        <p><a href="https://imasters.com.br/desenvolvimento/a-revolucao-silenciosa-como-a-ia-esta-transformando-o-desenvolvimento-de-software" target="_blank">▶ Veja mais</a></p><br><br>
+
+        <h3>📺<ins>TECH EM VÍDEO</ins></h3>
+        <iframe width="480" height="290"
+     src="https://www.youtube.com/embed/eqUFcr1mI3Y"></iframe><br><br>
+<br>
+<br>
+        <h4><em>📰 Newsletter</em></h4>
+        <p>
+            <label for="e-mail">E-mail</label>
+            <input type="e-mail" id="e-mail" name="e-mail" placeholder="Digite seu e-mail..." required>  |
+            <label for="Área de interesse">Área de interesse:</label>
+            <select name="Área de interesse" id="Área de interesse";>
+            <option value=""> Selecione </option>
+            <option value="IA"> Inteligência Artificial</option>
+            <option value="tech">Tecnologia</option>
+            <option value="games">Games</option>
+            <option value="geral">Geral</option>
+            </select>  |
+        <input type="radio" id="Aceito os termos" name="termos" value="t" required>
+        <label for="Aceito os termos">Aceito os termos </label><br><br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+        </p><br><br>
+    </main>
+    <footer>
+        <p>
+            © 2025 TechNews Today · Todos os direitos reservados
+            Contato: <ins>info@technews.com </ins>
+        </p>
+    </footer>
+</body>
+</html>
 
 
